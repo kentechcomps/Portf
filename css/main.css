@@ -1,16 +1,16 @@
 body{
+    background-color: bisque;
     margin: 0;
     padding: 0;
 }
 #navbar{
     display: flex;
-    border-style: groove;
+    
     border-radius: 10px;
-    box-shadow: inset;
-    border-color: black;
-    border-width: 2px;
     margin-top: 20px;
     padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+
 }
 nav ul{
     list-style: none;
@@ -18,13 +18,17 @@ nav ul{
     padding-left: 800px;
 }
 nav ul li{
-    margin-right: 40px;
+    margin-right: 50px;
+    text-transform: uppercase;
+
 }
 a{
     text-decoration: none;
     color: black;
+
 }
 .logo{
+
     font-size: 30px;
 }
 .John{
@@ -79,7 +83,7 @@ font-size: 50px;
   border-radius: 8px;
 }
 #picbit img{
-    height: 600px;
+    height: 700px;
     width: auto;
     margin-top: 20px;
 }
